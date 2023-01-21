@@ -57,7 +57,6 @@ void testAdditionOperationForDoubles(){
         Assertions.assertEquals(2.5, actualResult);
 }
 
-
 @Test
 @DisplayName("Test Subtraction of Two Doubles")
 void testSubtractionOperationForDoubles(){

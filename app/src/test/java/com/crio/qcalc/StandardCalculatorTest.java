@@ -8,8 +8,6 @@ import org.junit.jupiter.api.function.Executable;
 
 
 
-
-
 public class StandardCalculatorTest {
     private StandardCalculator standardCalculator;
 
@@ -143,7 +141,7 @@ void testMultiplicationOperationForDoubles(){
         Assertions.assertThrows(ArithmeticException.class,new Executable(){
             @Override
             public void execute() throws Throwable{
-                standardCalculator.multiply(-Double.MAX_VALUE,Double.MAX_VALUE);
+                standardCalculator.multiply(Double.MAX_VALUE,Double.MAX_VALUE);
             }
         });
     }

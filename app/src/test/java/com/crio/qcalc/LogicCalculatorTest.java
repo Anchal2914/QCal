@@ -29,7 +29,7 @@ public class LogicCalculatorTest {
         //Arrange
         double expectedResult = 7;
         //Act
-        logicCalculator.OR(7);
+        logicCalculator.OR(5,7);
         double actualResult = logicCalculator.getResult();
         //Assert
         Assertions.assertEquals(expectedResult, actualResult);
